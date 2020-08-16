@@ -1,2 +1,0 @@
-(this["webpackJsonpnew-test"]=this["webpackJsonpnew-test"]||[]).push([[8],{136:function(e,t,n){"use strict";n.r(t);var s=n(0),i=n.n(s);t.default=function(){return i.a.createElement("div",{className:"text-lg w-full justify-center items-center text-white uppercase text-center",style:{minHeight:700}},"Reservation")}}}]);
-//# sourceMappingURL=8.591674c8.chunk.js.map
