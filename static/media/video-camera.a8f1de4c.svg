@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="video-camera" width="17.618" height="11.692" viewBox="0 0 17.618 11.692">
+    <defs>
+        <linearGradient id="linear-gradient" x1="-.133" x2=".923" y1="-.151" y2="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#e83866"/>
+            <stop offset=".067" stop-color="#e83866"/>
+            <stop offset=".801" stop-color="#e57a3c"/>
+            <stop offset="1" stop-color="#e57a3c"/>
+        </linearGradient>
+    </defs>
+    <g id="Group_1370" data-name="Group 1370">
+        <path id="Path_1052" fill="url(#linear-gradient)" d="M17.331 87.849a.688.688 0 0 0-.621-.093l-3.54 1.19v-1.227A1.711 1.711 0 0 0 11.471 86H1.7A1.711 1.711 0 0 0 0 87.719v8.253a1.711 1.711 0 0 0 1.7 1.719h9.772a1.711 1.711 0 0 0 1.7-1.719v-1.226l3.54 1.19a.688.688 0 0 0 .908-.652v-6.877a.688.688 0 0 0-.289-.558zm-1.09 6.479l-3.54-1.19a.689.689 0 0 0-.908.652v2.183a.334.334 0 0 1-.323.344H1.7a.334.334 0 0 1-.323-.344v-8.254a.334.334 0 0 1 .323-.344h9.772a.334.334 0 0 1 .323.344V89.9a.688.688 0 0 0 .908.652l3.54-1.19z" data-name="Path 1052" transform="translate(0 -86)"/>
+    </g>
+</svg>
