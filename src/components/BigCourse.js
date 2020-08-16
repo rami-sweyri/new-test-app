@@ -14,7 +14,7 @@ const BigCourse = ({ data }) => {
   return (
     <div className="md:w-3/12 w-full flex justify-center items-start flex-col courses-container">
       <NavLink
-        to={process.env.PUBLIC_URL + `/courses/${data.id}`}
+        to={`/courses/${data.id}`}
         className="relative w-full cursor-pointer"
         onClick={(e) => onVideoChange({ data })}
       >
