@@ -18,7 +18,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "http://ramiasg.github.io/new-test-app",
+  "homepage": "http://ramiasg.github.io/new-test-app/",
   "eslintConfig": {
     "extends": "react-app"
   },
