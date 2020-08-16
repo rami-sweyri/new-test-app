@@ -2,9 +2,9 @@ import React, { useContext } from "react";
 
 import video0 from "../assets/bg-video-0.png";
 
-import video1 from "../assets/video/img.png";
-import video2 from "../assets/video/img@2x.png";
-import video3 from "../assets/video/img@3x.png";
+import video1 from "../assets/video/img@3x.jpg";
+import video2 from "../assets/video/img@3x.jpg";
+import video3 from "../assets/video/img@3x.jpg";
 
 import bg from "../assets/bg-video.png";
 import videoPlay from "../assets/video-play.svg";
