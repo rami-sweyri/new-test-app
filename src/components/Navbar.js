@@ -13,7 +13,7 @@ const Navbar = () => {
     <nav className="w-full flex justify-between  items-center bg-white">
       <div
         className="flex md:hidden cursor-pointer"
-        onClick={() => onToggleSideMenu()}
+        // onClick={() => onToggleSideMenu()}
       >
         <img src={menu} />
       </div>
