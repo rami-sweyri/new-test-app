@@ -8,8 +8,9 @@ import mic from "../assets/mic.svg";
 
 import user1 from "../assets/profile/user-1.png";
 import user2 from "../assets/profile/user-1@2x.png";
-import user3 from "../assets/profile/user-1@3x.png";
-import home from "../assets/home.svg";
+import user3 from "../assets/profile/user-1@2x.png";
+// import user3 from "../assets/profile/user-1@3x.png";
+
 import starFill from "../assets/starFill.svg";
 import star from "../assets/star.svg";
 import arrowRightWhite from "../assets/arrow-right-white.svg";

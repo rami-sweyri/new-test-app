@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 
-import bgBigX3 from "../assets/bgBig/img@3x.png";
+// import bgBigX3 from "../assets/bgBig/img@3x.png";
+import bgBigX3 from "../assets/bgBig/img@2x.png";
 import bgBigX2 from "../assets/bgBig/img@2x.png";
 import bgBigX1 from "../assets/bgBig/img.png";
 import cam from "../assets/video-camera.svg";

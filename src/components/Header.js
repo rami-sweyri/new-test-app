@@ -3,15 +3,18 @@ import AppContext from "../context/AppContext";
 
 import smallLogo1 from "../assets/smallLogo/img.png";
 import smallLogo2 from "../assets/smallLogo/img@2x.png";
-import smallLogo3 from "../assets/smallLogo/img@3x.png";
+import smallLogo3 from "../assets/smallLogo/img@2x.png";
+// import smallLogo3 from "../assets/smallLogo/img@3x.png";
 
 import bigLogo1 from "../assets/bigLogo/img.png";
 import bigLogo2 from "../assets/bigLogo/img@2x.png";
-import bigLogo3 from "../assets/bigLogo/img@3x.png";
+import bigLogo3 from "../assets/bigLogo/img@2x.png";
+// import bigLogo3 from "../assets/bigLogo/img@3x.png";
 
 import user1 from "../assets/profile/user-1.png";
 import user2 from "../assets/profile/user-1@2x.png";
-import user3 from "../assets/profile/user-1@3x.png";
+import user3 from "../assets/profile/user-1@2x.png";
+// import user3 from "../assets/profile/user-1@3x.png";
 
 import home from "../assets/home.svg";
 import starFill from "../assets/starFill.svg";
