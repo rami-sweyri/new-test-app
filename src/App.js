@@ -48,7 +48,7 @@ function App() {
         onToggleSideMenu,
       }}
     >
-      <Router basename={process.env.PUBLIC_URL}>
+      <Router basename="/">
         <div className="flex justify-between items-start flex-row-reverse md:flex-row">
           {sideBar ? (
             <div className="md:w-2/12 w-6/12">
