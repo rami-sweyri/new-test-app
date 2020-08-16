@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24.153" height="28.105" viewBox="0 0 24.153 28.105">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x2="1" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e83866"/>
+      <stop offset="0.067" stop-color="#e83866"/>
+      <stop offset="0.801" stop-color="#e57a3c"/>
+      <stop offset="1" stop-color="#e57a3c"/>
+    </linearGradient>
+  </defs>
+  <g id="file" transform="translate(-36)">
+    <g id="Group_1383" data-name="Group 1383" transform="translate(36)">
+      <path id="Path_1055" data-name="Path 1055" class="cls-1" d="M57.408,0H44.339a1.108,1.108,0,0,0-.768.313L36.33,7.4a1.107,1.107,0,0,0-.33.784V25.394a2.731,2.731,0,0,0,2.745,2.71H57.408a2.731,2.731,0,0,0,2.745-2.71V2.71A2.731,2.731,0,0,0,57.408,0ZM43.241,3.71V7.091H39.788ZM57.957,25.394a.533.533,0,0,1-.549.515H38.745a.533.533,0,0,1-.549-.515V9.286h6.143a1.1,1.1,0,0,0,1.1-1.1V2.2H57.408a.533.533,0,0,1,.549.515Z" transform="translate(-36)"/>
+    </g>
+  </g>
+</svg>

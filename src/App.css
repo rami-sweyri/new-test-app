@@ -1,0 +1,799 @@
+@font-face {
+  font-family: "LoewNextArabic";
+  font-weight: 200;
+  src: url("./assets/fonts/Loew-Next-Arabic-Thin.otf") format("opentype");
+}
+@font-face {
+  font-family: "LoewNextArabic";
+  font-weight: 300;
+  src: url("./assets/fonts/Loew-Next-Arabic-Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "LoewNextArabic";
+  font-weight: 400;
+  src: url("./assets/fonts/Loew-Next-Arabic.otf") format("opentype");
+}
+@font-face {
+  font-family: "LoewNextArabic";
+  font-weight: 500;
+  src: url("./assets/fonts/Loew-Next-Arabic-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "LoewNextArabic";
+  font-weight: 600;
+  src: url("./assets/fonts/Loew-Next-Arabic-Bold.otf") format("opentype");
+}
+@font-face {
+  font-family: "LoewNextArabic";
+  font-weight: 700;
+  src: url("./assets/fonts/Loew-Next-Arabic-ExtraBold.otf") format("opentype");
+}
+@font-face {
+  font-family: "LoewNextArabic";
+  font-weight: 800;
+  src: url("./assets/fonts/Loew-Next-Arabic-Heavy.otf") format("opentype");
+}
+@font-face {
+  font-family: "LoewNextArabic";
+  font-weight: 900;
+  src: url("./assets/fonts/Loew-Next-Arabic-Black.otf") format("opentype");
+}
+html {
+  line-height: 1.5;
+}
+body {
+  font-family: "LoewNextArabic", Arial, serif;
+  font-weight: 600;
+  /* background-color: #153064; */
+}
+nav {
+  height: 55px;
+  padding: 0 30px;
+  font-size: 13px;
+}
+header {
+  height: 102px;
+  padding: 0 30px;
+  opacity: 0.97;
+  border-top-left-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+.user-mob {
+  height: 169px;
+  opacity: 0.97;
+  background-color: #153064;
+}
+.user-mob-padding {
+  padding: 25px 30px 0 30px;
+}
+
+.text-blue-t-300 {
+  color: #1c3668;
+}
+.bg-blue-t-300 {
+  background-color: #1c3668;
+}
+.text-blue-t-100 {
+  color: #1f3a6e;
+}
+
+.bg-blue-t-100 {
+  background-color: #1f3a6e;
+}
+
+.text-cobalt {
+  color: #1d428b;
+}
+.bg-cobalt {
+  background-color: #1d428b;
+}
+.nav-bill {
+  width: 26.4px;
+  height: 32.9px;
+  object-fit: contain;
+}
+
+.nav-circle {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  border-radius: 50%;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.16);
+  border: solid 2px #a7b5d2;
+  background-color: #e9edf0;
+}
+
+.nav-user {
+  width: 27.2px;
+  height: 27.2px;
+  object-fit: contain;
+}
+
+.icon-home {
+  width: 22px;
+  height: 19px;
+  object-fit: contain;
+  color: #435f95;
+}
+
+.icon-profile {
+  width: 79px;
+  height: 79px;
+  object-fit: contain;
+}
+.icon-profile-mob {
+  width: 51px;
+  height: 51px;
+  object-fit: contain;
+}
+
+.status-btn {
+  width: 142px;
+  height: 31px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+    121deg,
+    #e83866 -28%,
+    #e83866 -21%,
+    #e57a3c 55%,
+    #e57a3c 75%
+  );
+}
+
+.menu {
+  height: 81px;
+  object-fit: contain;
+  background-image: linear-gradient(65deg, #254176 6%, #1c3668 97%);
+}
+.menu-icons {
+  width: 41px;
+  height: 41px;
+  object-fit: contain;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+}
+.wifi {
+  border: solid 3px #e28519;
+}
+.wifi-icon {
+  width: 19.3px;
+  height: 15.9px;
+}
+.video {
+  border: solid 3px #e21956;
+}
+.video-icon {
+  width: 21.6px;
+  height: 12.9px;
+}
+
+.mic {
+  border: solid 3px #1dd950;
+}
+.mic-icon {
+  width: 17.4px;
+  height: 23.9px;
+}
+
+.icon-info > .icon-title {
+  font-size: 10px;
+  margin-bottom: 3px;
+}
+.main {
+  opacity: 0.97;
+  background-color: #153064;
+}
+.link {
+  color: #8191b2;
+}
+.active {
+  color: #ffffff;
+  /* font-weight: 700; */
+  text-shadow: 0px 0px 1px white;
+}
+.active::after {
+  content: "";
+  border-bottom: 3px solid #ffffff;
+  width: 25px;
+  position: absolute;
+  right: 0;
+  bottom: -11.5px;
+  display: block;
+}
+
+.about-info {
+  border-radius: 0;
+  box-shadow: 0 5px 86px 0 rgba(0, 0, 0, 0.05);
+  background-color: #2a4986;
+  padding: 40px 30px;
+  font-size: 15px;
+  line-height: 1.93;
+}
+
+.about-scroll::-webkit-scrollbar {
+  width: 5px;
+  height: 322px;
+  border-radius: 4px;
+}
+
+.about-scroll::-webkit-scrollbar-track {
+  background-color: #375798;
+  border-radius: 4px;
+}
+
+.about-scroll::-webkit-scrollbar-thumb {
+  background-color: #24417b;
+  border-radius: 4px;
+}
+
+.about-video {
+  border-radius: 0;
+  overflow: hidden;
+  /* height: 615.7px; */
+}
+
+.bg-0 {
+  object-fit: contain;
+  border-radius: 5px;
+  background-image: linear-gradient(134deg, #1b4595 50%, #10306f 100%);
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border: 8px solid #cef;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #cef transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.wait::after {
+  content: "";
+  border-bottom: 3px solid #ddd;
+  width: 40px;
+  position: absolute;
+  right: 0;
+  bottom: -11.5px;
+  display: block;
+}
+
+.dot-bill {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
+  border: solid 1.7px #1c3668;
+  background-color: #e83866;
+}
+
+.menu-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.menu-scroll {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.opacity-link {
+  width: 103px;
+  height: 55px;
+  object-fit: contain;
+  background-image: linear-gradient(to left, rgb(62 100 176 / 0%), #153064);
+}
+
+.video-title {
+  font-size: 14px;
+  line-height: 1.64;
+}
+.video-title-cover {
+  right: 30px;
+  bottom: 53.1px;
+}
+.video-progress-bar {
+  right: 21px;
+  left: 21px;
+  bottom: 17.6px;
+}
+.play-btn {
+  width: 30.1px;
+  height: 30.1px;
+  object-fit: contain;
+}
+.video-time {
+  font-size: 11px;
+}
+.video-volume {
+  width: 19.1px;
+  height: 15.3px;
+  object-fit: contain;
+}
+.full-screen-button {
+  width: 15.4px;
+  height: 15.4px;
+  object-fit: contain;
+}
+.text-experience {
+  font-size: 15px;
+  line-height: 1.93;
+}
+.about-experience {
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.about-experience-title {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 10px;
+}
+.about-experience-title-dir {
+  border-radius: 5px;
+  background-color: rgb(34, 60, 110);
+  padding: 19px 22px;
+  font-size: 11px;
+  color: rgb(167, 181, 210);
+}
+.reservation {
+  height: 67px;
+  border-radius: 10px;
+  position: fixed;
+  top: 80%;
+  z-index: 2;
+  left: 30px;
+  right: 30px;
+  background-image: linear-gradient(
+    107deg,
+    #e83866 -26%,
+    #e83866 -17%,
+    #e57a3c 84%,
+    #e57a3c 112%
+  );
+}
+.store,
+.broadcast {
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 52px;
+  margin-bottom: 66px;
+}
+.course {
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-bottom: 42px;
+}
+
+.course-video-icon {
+  width: 16px;
+  height: 10.7px;
+  object-fit: contain;
+}
+.course-title {
+  margin-top: 11px;
+  font-size: 10px;
+  line-height: 1.6;
+}
+
+.course-price {
+  font-size: 13px;
+  color: rgb(129, 145, 178);
+  line-height: 1.08;
+}
+.course-price-text {
+  font-size: 9px;
+  color: rgb(129, 145, 178);
+  margin-right: 4px;
+  line-height: 1.56;
+}
+.file {
+  width: 18.8px;
+  height: 21.8px;
+  object-fit: contain;
+}
+.file-text {
+  font-size: 13px;
+  color: rgb(129, 145, 178);
+  margin-right: 8px;
+  line-height: 1.08;
+}
+.file-title {
+  font-size: 15px;
+  color: rgb(129, 145, 178);
+  margin-right: 9.2px;
+  line-height: 0.67;
+}
+.file-icon {
+  width: 13.4px;
+  height: 15.6px;
+  object-fit: contain;
+}
+.file-icon {
+  width: 13.4px;
+  height: 15.6px;
+  object-fit: contain;
+}
+.file-icon-mic {
+  width: 15.3px;
+  height: 20.9px;
+  object-fit: contain;
+}
+.video-price-pos {
+  right: 30px;
+  bottom: 27px;
+}
+.video-price-text {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #8191b2;
+}
+.video-price-value {
+  font-size: 15px;
+  line-height: 1;
+  color: #8191b2;
+}
+.video-down-btn {
+  width: 21.3px;
+  height: 15.9px;
+  object-fit: contain;
+}
+.video-down-text {
+  font-size: 16px;
+  line-height: 1.38;
+  color: rgb(129, 145, 178);
+}
+
+.video-shop {
+  font-size: 10px;
+  line-height: 1.3;
+}
+.video-shop-btn {
+  width: 34.3px;
+  height: 29.5px;
+  object-fit: contain;
+}
+.video-shop-btn-value {
+  top: 29%;
+  left: 18%;
+  width: 18.5px;
+  height: 15.2px;
+  object-fit: contain;
+}
+.courses-container {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 66px;
+}
+.courses-title {
+  margin-top: 21px;
+  font-size: 14px;
+  line-height: 1.71;
+  min-height: 53px;
+}
+.courses-price {
+  font-size: 15px;
+  line-height: 1.07;
+  color: rgb(129, 145, 178);
+}
+.courses-price-title {
+  font-size: 9px;
+  color: rgb(129, 145, 178);
+  margin-right: 4px;
+  line-height: 1.56;
+}
+.courses-tit {
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 15px;
+}
+.courses-btn {
+  width: 10.2px;
+  height: 10.2px;
+  object-fit: contain;
+}
+.home-shadow {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.rounded-tl-xl {
+  border-top-left-radius: 1.5rem;
+}
+.sidebar-time {
+  font-size: 10px;
+  line-height: 1.6;
+}
+.sidebar-name {
+  font-size: 15px;
+}
+.user-wait {
+  width: 37px;
+  height: 37px;
+  object-fit: contain;
+  box-shadow: -2px 2px 5px 0 rgba(0, 0, 0, 0.09);
+  border: solid 1px #e9edf0;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.wait {
+  margin-top: 0;
+}
+.text-wait {
+  font-size: 13px;
+
+  line-height: 4.23;
+}
+.link-menu {
+  font-size: 17px;
+  line-height: 2.06;
+  color: #1d428b;
+}
+.link-menu-p {
+  margin-left: 88px;
+  margin-right: 88px;
+}
+
+@media (min-width: 768px) {
+  nav {
+    height: 93px;
+    padding: 0 66px;
+    font-size: 20px;
+  }
+  header {
+    height: 183px;
+    padding: 0 66px;
+    opacity: 0.97;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .menu {
+    height: 92px;
+    padding: 0 66px;
+    background-image: linear-gradient(80deg, #254176 11%, #1c3668 95%);
+    opacity: 0.97;
+  }
+  .menu-icons {
+    width: 52px;
+    height: 52px;
+  }
+  .wifi-icon {
+    width: 21.8px;
+    height: 18px;
+  }
+  .video-icon {
+    width: 24px;
+    height: 14.4px;
+  }
+  .mic-icon {
+    width: 22.8px;
+    height: 31.3px;
+  }
+  .icon-info > .icon-title {
+    font-size: 16px;
+    margin-bottom: 7px;
+  }
+  .main {
+    padding: 50px 66px;
+  }
+  .video-title {
+    font-size: 29px;
+    line-height: 1.55;
+  }
+  .video-title-cover {
+    right: 46px;
+    bottom: 90px;
+  }
+  .video-progress-bar {
+    right: 46px;
+    left: 46px;
+    bottom: 30px;
+  }
+  .play-btn {
+    width: 34.8px;
+    height: 34.8px;
+  }
+  .video-time {
+    font-size: 16px;
+  }
+  .video-volume {
+    width: 26.1px;
+    height: 20.9px;
+  }
+  .full-screen-button {
+    width: 21px;
+    height: 21px;
+  }
+  .about-video {
+    border-radius: 5px;
+  }
+  .about-info {
+    border-radius: 5px;
+    padding: 45px 58px;
+    margin-left: 38.6px;
+    max-height: 418px;
+    font-size: 20px;
+    line-height: 1.7;
+  }
+  .text-experience {
+    font-size: 21px;
+    margin-right: 51px;
+  }
+  .about-experience {
+    margin-top: 30px;
+    margin-left: 38.6px;
+  }
+  .about-experience-title {
+    padding-left: 10px;
+    margin-bottom: 10px;
+  }
+  .about-experience-title-dir {
+    padding: 9px 22px;
+    font-size: 14px;
+  }
+  .store,
+  .broadcast {
+    margin-left: 38.6px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 66px;
+  }
+  .course {
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-bottom: 42px;
+  }
+  .course-video-icon {
+    width: 20.6px;
+    height: 13.7px;
+  }
+  .course-title {
+    margin-top: 17px;
+    font-size: 12px;
+    line-height: 1.43;
+  }
+  .course-price {
+    font-size: 19px;
+    line-height: 1.05;
+  }
+  .course-price-text {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+  .file {
+    width: 24.2px;
+    height: 28.1px;
+  }
+  .file-text {
+    font-size: 19px;
+    line-height: 1.05;
+  }
+  .file-title {
+    font-size: 25px;
+    margin-right: 9.2px;
+    line-height: 1.08;
+  }
+  .file-icon {
+    width: 32.9px;
+    height: 38.2px;
+  }
+  .file-icon-mic {
+    width: 20.3px;
+    height: 27.9px;
+  }
+  .video-price-pos {
+    right: 46px;
+    bottom: 47.7px;
+  }
+  .video-price-text {
+    font-size: 16px;
+    line-height: 1.56;
+  }
+  .video-price-value {
+    font-size: 24px;
+    line-height: 1.04;
+  }
+  .video-down-btn {
+    width: 26.5px;
+    height: 19.7px;
+  }
+  .video-down-text {
+    font-size: 21px;
+    line-height: 1.43;
+  }
+
+  .video-shop {
+    font-size: 16px;
+    line-height: 1.56;
+  }
+  .video-shop-btn {
+    width: 59px;
+    height: 50.8px;
+  }
+  .video-shop-btn-value {
+    width: 31.9px;
+    height: 26.2px;
+  }
+  .courses-container {
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    margin-bottom: 66px;
+  }
+  .courses-title {
+    font-size: 17px;
+    line-height: 1.59;
+  }
+
+  .courses-price-title {
+    font-size: 13px;
+    line-height: 1.54;
+  }
+  .courses-tit {
+    margin-left: 0;
+    margin-right: 0;
+    font-size: 29px;
+  }
+  .courses-btn {
+    width: 17px;
+    height: 17px;
+    object-fit: contain;
+  }
+  .home-shadow {
+    -webkit-box-shadow: -25px 151px 26px 0px rgba(57, 96, 163, 0.53);
+    -moz-box-shadow: -25px 151px 26px 0px rgba(57, 96, 163, 0.53);
+    box-shadow: -25px 151px 26px 0px rgba(57, 96, 163, 0.53);
+  }
+  .rounded-tl-xl {
+    border-top-left-radius: 2.5rem;
+  }
+  .sidebar-time {
+    font-size: 11px;
+    line-height: 1.45;
+  }
+  .sidebar-name {
+    font-size: 16px;
+    line-height: 2.19;
+  }
+  .user-wait {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+    box-shadow: -2px 2px 5px 0 rgba(0, 0, 0, 0.09);
+    border: solid 1px #e9edf0;
+    background-color: #ffffff;
+    border-radius: 50%;
+  }
+  .wait {
+    margin-top: 93px;
+  }
+  .text-wait {
+    font-size: 20px;
+    line-height: 2.75;
+  }
+}
