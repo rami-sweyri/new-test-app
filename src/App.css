@@ -56,8 +56,8 @@ header {
   height: 102px;
   padding: 0 30px;
   opacity: 0.97;
-  border-top-left-radius: 1.5rem;
-  border-top-right-radius: 1.5rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
 }
 .user-mob {
   height: 169px;
@@ -559,6 +559,12 @@ header {
   margin-right: 88px;
 }
 
+/* .home {
+  transition: transform 1s ease-in-out;
+}
+.home-sidebar {
+  transform: translateX(15px);
+} */
 @media (min-width: 768px) {
   nav {
     height: 93px;

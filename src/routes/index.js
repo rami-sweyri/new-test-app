@@ -27,13 +27,37 @@ const Routes = () => {
       }
     >
       <Switch>
-        <Route exact path="/" component={About} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/store" component={Store} />
-        <Route exact path="/broadcast" component={Broadcast} />
-        <Route exact path="/courses" component={AllCourses} />
-        <Route exact path="/courses/:id" component={SingleCourse} />
-        <Route exact path="/reservation" component={Reservation} />
+        <Route exact path={process.env.PUBLIC_URL + "/"} component={About} />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/about"}
+          component={About}
+        />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/store"}
+          component={Store}
+        />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/broadcast"}
+          component={Broadcast}
+        />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/courses"}
+          component={AllCourses}
+        />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/courses/:id"}
+          component={SingleCourse}
+        />
+        <Route
+          exact
+          path={process.env.PUBLIC_URL + "/reservation"}
+          component={Reservation}
+        />
       </Switch>
     </Suspense>
   );

@@ -109,21 +109,21 @@ const Menu = () => {
         </div>
         <div className="justify-start items-center flex-row-reverse hidden md:flex">
           <NavLink
-            to="/about"
+            to={process.env.PUBLIC_URL + "/about"}
             className="font-medium link relative my-2 text-right"
             style={{ fontSize: 18, marginLeft: 40 }}
           >
             نبذه عن هند
           </NavLink>
           <NavLink
-            to="/store"
+            to={process.env.PUBLIC_URL + "/store"}
             className="font-medium link relative my-2 text-right"
             style={{ fontSize: 18, marginLeft: 40 }}
           >
             متجر
           </NavLink>
           <NavLink
-            to="/broadcast"
+            to={process.env.PUBLIC_URL + "/broadcast"}
             className="font-medium link relative my-2 text-right"
             style={{ fontSize: 18, marginLeft: 40 }}
           >
@@ -131,7 +131,7 @@ const Menu = () => {
           </NavLink>
 
           <NavLink
-            to="/courses"
+            to={process.env.PUBLIC_URL + "/courses"}
             className="font-medium link relative my-2 text-right flex justify-start items-center h-full"
             style={{ fontSize: 18, marginLeft: 40 }}
           >
@@ -145,7 +145,7 @@ const Menu = () => {
             )}
           </NavLink>
           <NavLink
-            to="/reservation"
+            to={process.env.PUBLIC_URL + "/reservation"}
             className="font-medium link relative my-2 text-right"
             style={{ fontSize: 18, marginLeft: 40 }}
           >
@@ -234,21 +234,21 @@ const Menu = () => {
             style={{ marginTop: 21.3, marginBottom: 10 }}
           >
             <NavLink
-              to="/about"
+              to={process.env.PUBLIC_URL + "/about"}
               className="font-medium link relative text-right whitespace-no-wrap"
               style={{ fontSize: 12, marginLeft: 26, marginRight: 26 }}
             >
               نبذه عن هند
             </NavLink>
             <NavLink
-              to="/store"
+              to={process.env.PUBLIC_URL + "/store"}
               className="font-medium link relative text-right whitespace-no-wrap"
               style={{ fontSize: 12, marginLeft: 26 }}
             >
               متجر
             </NavLink>
             <NavLink
-              to="/broadcast"
+              to={process.env.PUBLIC_URL + "/broadcast"}
               className="font-medium link relative text-right whitespace-no-wrap"
               style={{ fontSize: 12, marginLeft: 26 }}
             >
@@ -256,7 +256,7 @@ const Menu = () => {
             </NavLink>
 
             <NavLink
-              to="/courses"
+              to={process.env.PUBLIC_URL + "/courses"}
               className="font-medium link relative text-right flex justify-start items-center h-full whitespace-no-wrap"
               style={{ fontSize: 12, marginLeft: 26 }}
             >
@@ -270,7 +270,7 @@ const Menu = () => {
               )}
             </NavLink>
             <NavLink
-              to="/reservation"
+              to={process.env.PUBLIC_URL + "/reservation"}
               className="font-medium link relative text-right whitespace-no-wrap"
               style={{ fontSize: 12, marginLeft: 26 }}
             >

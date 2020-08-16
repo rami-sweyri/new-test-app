@@ -49,7 +49,7 @@ const Sidebar = () => {
         </p>
       </div>
       <div
-        className="flex flex-col items-end justify-start w-64"
+        className="flex flex-col items-end justify-start h-full w-full"
         style={{ marginTop: 46.5, marginRight: 71 }}
       >
         {data.map((user) => (
